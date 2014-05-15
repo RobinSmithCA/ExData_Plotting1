@@ -24,3 +24,6 @@ plot( rawData$TimeStamp , rawData$Global_reactive_power, type = "l", xlab = "dat
 
 # close the device
 dev.off()
+
+## reset the plotter to a 1x1 grid
+par( mfrow = c( 1, 1 ) )
